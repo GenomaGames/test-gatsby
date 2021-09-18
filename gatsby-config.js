@@ -3,8 +3,5 @@ module.exports = {
     siteUrl: "https://test-gatsby.genomagames.com",
     title: "Genoma Games Test Gatsby",
   },
-  plugins: [
-    "gatsby-plugin-image",
-    "gatsby-plugin-sharp",
-  ],
+  plugins: ["gatsby-plugin-image", "gatsby-plugin-sharp"],
 };
