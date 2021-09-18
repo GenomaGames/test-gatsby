@@ -4,7 +4,7 @@ import Layout from "../components/layout";
 
 const AboutPage = () => {
   return (
-    <Layout pageTitle="About Genoma Games">
+    <Layout pageTitle="About">
       <p>Independent indie game development studio based on Madrid, Spain.</p>
     </Layout>
   );
