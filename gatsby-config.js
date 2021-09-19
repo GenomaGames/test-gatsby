@@ -13,5 +13,6 @@ module.exports = {
         path: `./src/blog`,
       },
     },
+    "gatsby-plugin-mdx",
   ],
 };
