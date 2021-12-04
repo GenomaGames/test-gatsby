@@ -13,6 +13,7 @@ module.exports = {
         path: `./src/blog`,
       },
     },
+    "gatsby-transformer-sharp",
     "gatsby-plugin-mdx",
   ],
 };

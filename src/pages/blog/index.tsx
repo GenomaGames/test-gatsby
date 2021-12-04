@@ -1,5 +1,5 @@
 import * as React from "react";
-import { Link, graphql } from "gatsby";
+import { Link, graphql, PageProps } from "gatsby";
 
 import Layout from "../../components/layout";
 
@@ -18,7 +18,7 @@ export const query = graphql`
   }
 `;
 
-const BlogPage = ({ data }) => {
+const BlogPage = ({ data }: PageProps) => {
   return (
     <Layout pageTitle="Blog">
       {data.allMdx.nodes.map((node) => (
