@@ -4,7 +4,7 @@ import { Link, graphql, PageProps } from "gatsby";
 import Layout from "../../components/layout";
 
 export const query = graphql`
-  {
+  query BlogPage {
     allMdx(sort: { order: DESC, fields: frontmatter___date }) {
       nodes {
         frontmatter {
@@ -18,7 +18,22 @@ export const query = graphql`
   }
 `;
 
-const BlogPage = ({ data }: PageProps) => {
+type BlogPageData = {
+  allMdx: {
+    nodes: {
+      id: string;
+      slug: string;
+      frontmatter: {
+        date: string;
+        title: string;
+      };
+    }[];
+  };
+};
+
+type BlogPageProps = PageProps<BlogPageData>;
+
+const BlogPage: React.FunctionComponent<BlogPageProps> = ({ data }) => {
   return (
     <Layout pageTitle="Blog">
       {data.allMdx.nodes.map((node) => (
