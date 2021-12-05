@@ -13,6 +13,14 @@
     "experimentalDecorators": true,
     "emitDecoratorMetadata": true,
     "noEmit": true,
+    "plugins": [
+      {
+        "name": "typescript-plugin-css-modules",
+        "options": {
+          "classnameTransform": "camelCase"
+        }
+      }
+    ],
     "skipLibCheck": true
   }
 }
