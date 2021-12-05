@@ -15,5 +15,17 @@ module.exports = {
     },
     "gatsby-transformer-sharp",
     "gatsby-plugin-mdx",
+    "gatsby-plugin-react-helmet",
+    {
+      resolve: "gatsby-plugin-robots-txt",
+      options: {
+        policy: [
+          {
+            userAgent: "*",
+            disallow: ["/"],
+          },
+        ],
+      },
+    },
   ],
 };
