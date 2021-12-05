@@ -10,7 +10,14 @@ import {
   siteTitle,
 } from "./layout.module.css";
 
-const Layout = ({ pageTitle, children }) => {
+type LayoutProps = {
+  pageTitle: string;
+};
+
+const Layout: React.FunctionComponent<LayoutProps> = ({
+  pageTitle,
+  children,
+}) => {
   const data = useStaticQuery(graphql`
     query {
       site {
