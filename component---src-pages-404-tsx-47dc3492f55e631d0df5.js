@@ -1,0 +1,2 @@
+"use strict";(self.webpackChunkgenoma_games_website=self.webpackChunkgenoma_games_website||[]).push([[218],{6040:function(e,n,t){t.r(n);var a=t(7294),l=t(5444),o=t(7885);n.default=function(){return a.createElement(o.Z,{pageTitle:"Not found"},a.createElement("p",null,"Sorry"," ",a.createElement("span",{role:"img","aria-label":"Pensive emoji"},"😔")," ","we couldn’t find what you were looking for."),null,a.createElement(l.rU,{to:"/"},"Go home"),".")}}}]);
+//# sourceMappingURL=component---src-pages-404-tsx-47dc3492f55e631d0df5.js.map

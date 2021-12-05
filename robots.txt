@@ -1,0 +1,4 @@
+User-agent: *
+Disallow: /
+Sitemap: https://test-gatsby.genomagames.com/sitemap/sitemap-index.xml
+Host: https://test-gatsby.genomagames.com

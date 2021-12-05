@@ -1,0 +1,2 @@
+"use strict";(self.webpackChunkgenoma_games_website=self.webpackChunkgenoma_games_website||[]).push([[643],{3353:function(e,t,a){a.r(t);var n=a(7294),l=a(5444),r=a(7885);t.default=function(e){var t=e.data;return n.createElement(r.Z,{pageTitle:"Blog"},t.allMdx.nodes.map((function(e){return n.createElement("article",{key:e.id},n.createElement("h2",null,n.createElement(l.rU,{to:"/blog/"+e.slug},e.frontmatter.title)),n.createElement("p",null,"Published at: ",e.frontmatter.date))})))}}}]);
+//# sourceMappingURL=component---src-pages-blog-index-tsx-1abf353a7becaafdf989.js.map
